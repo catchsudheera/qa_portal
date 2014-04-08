@@ -6,7 +6,8 @@
 
    	var optionalHeaders = {
     "Accept": "application/json",
-            "Authorization": "Basic "+base64_encode("admin:admin") };
+            "Authorization": "Basic "+base64_encode("admin:admin"),
+   	"Content-Type": "application/json" };
 
 
 	var dataResultDetails = get(urlResultDetails,"",optionalHeaders);
